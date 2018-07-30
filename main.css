@@ -1,0 +1,13 @@
+.music{
+    background:turquoise;
+}
+header {
+color:coral;
+}
+#navigate{
+    color:orangered;
+    display:flex;
+    text-align: center;
+    height: 30%;
+    border-bottom: darkblue double 1em;
+}
