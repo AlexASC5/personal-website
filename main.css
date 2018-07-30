@@ -1,13 +1,45 @@
-.music{
-    background:turquoise;
+body {
+    background:blue;
 }
-header {
-color:coral;
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
-#navigate{
-    color:orangered;
-    display:flex;
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
     text-align: center;
-    height: 30%;
-    border-bottom: darkblue double 1em;
+    padding: 14px 16px;
+    text-decoration: none;
 }
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+/* <style> */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+/* </style>
+
+<div class="footer">
+  <p>Footer</p>
+</div> */
